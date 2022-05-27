@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bloodmask_Asset_Manager", "Bloodmask_Asset_Manager.vcxproj", "{A98F4E91-CA4C-45FF-AC7F-C50F46F5CF8D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{604F8C8F-2A4F-42BE-B9EC-EDBD537E11B5} = {604F8C8F-2A4F-42BE-B9EC-EDBD537E11B5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bloodmask_Asset_Manager_DLL", "..\Bloodmask_Asset_Manager_DLL\Bloodmask_Asset_Manager_DLL.vcxproj", "{604F8C8F-2A4F-42BE-B9EC-EDBD537E11B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A98F4E91-CA4C-45FF-AC7F-C50F46F5CF8D}.Debug|x64.ActiveCfg = Debug|x64
+		{A98F4E91-CA4C-45FF-AC7F-C50F46F5CF8D}.Debug|x64.Build.0 = Debug|x64
+		{A98F4E91-CA4C-45FF-AC7F-C50F46F5CF8D}.Release|x64.ActiveCfg = Release|x64
+		{A98F4E91-CA4C-45FF-AC7F-C50F46F5CF8D}.Release|x64.Build.0 = Release|x64
+		{604F8C8F-2A4F-42BE-B9EC-EDBD537E11B5}.Debug|x64.ActiveCfg = Debug|x64
+		{604F8C8F-2A4F-42BE-B9EC-EDBD537E11B5}.Debug|x64.Build.0 = Debug|x64
+		{604F8C8F-2A4F-42BE-B9EC-EDBD537E11B5}.Release|x64.ActiveCfg = Release|x64
+		{604F8C8F-2A4F-42BE-B9EC-EDBD537E11B5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB204219-62AE-44C9-AD35-E9B8EBAFE7D4}
+	EndGlobalSection
+EndGlobal
