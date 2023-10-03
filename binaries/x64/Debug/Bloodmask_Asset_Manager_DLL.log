@@ -1,0 +1,24 @@
+﻿  AssetManager.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+  AssetSerializer.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+  File.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+  FileExportedFunctions.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+  FileSystem.cpp
+  Folder.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+  GameAsset.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+  Generating Code...
+     Creating library D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\projects\Bloodmask_Asset_Manager\..\..\binaries\x64\Debug\Bloodmask_Asset_Manager_DLL.lib and object D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\projects\Bloodmask_Asset_Manager\..\..\binaries\x64\Debug\Bloodmask_Asset_Manager_DLL.exp
+  Bloodmask_Asset_Manager_DLL.vcxproj -> D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\binaries\x64\Debug\Bloodmask_Asset_Manager_DLL.dll
+  D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\binaries\x64\Debug\Bloodmask_Asset_Manager_DLL.dll
+  1 File(s) copied

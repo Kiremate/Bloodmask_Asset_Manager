@@ -1,0 +1,38 @@
+﻿  AssetManager.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(275,56): error C2665: 'blood_manager::GameAsset::GameAsset': no overloaded function could convert all the argument types
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\GameAsset.h(39,5): message : could be 'blood_manager::GameAsset::GameAsset(blood_manager::GameAsset &&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(275,56): message : 'blood_manager::GameAsset::GameAsset(blood_manager::GameAsset &&)': cannot convert argument 1 from 'const std::string' to 'blood_manager::GameAsset &&'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(275,77): message : Reason: cannot convert from 'const std::string' to 'blood_manager::GameAsset'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(275,77): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\GameAsset.h(39,5): message : or       'blood_manager::GameAsset::GameAsset(const blood_manager::GameAsset &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(275,56): message : 'blood_manager::GameAsset::GameAsset(const blood_manager::GameAsset &)': cannot convert argument 1 from 'const std::string' to 'const blood_manager::GameAsset &'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(275,77): message : Reason: cannot convert from 'const std::string' to 'const blood_manager::GameAsset'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(275,77): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(275,56): message : while trying to match the argument list '(const std::string)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(1983): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,const std::string&>(_Ty &,const std::string &) noexcept(false)' being compiled
+          with
+          [
+              _Ty=blood_manager::GameAsset
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to function template instantiation 'std::_Ref_count_obj2<blood_manager::GameAsset>::_Ref_count_obj2<const std::string&>(const std::string &)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2664,20): message : see reference to function template instantiation 'std::_Ref_count_obj2<blood_manager::GameAsset>::_Ref_count_obj2<const std::string&>(const std::string &)' being compiled
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\source\AssetManager.cpp(13,76): message : see reference to function template instantiation 'std::shared_ptr<blood_manager::GameAsset> std::make_shared<blood_manager::GameAsset,const std::string&>(const std::string &)' being compiled
+  File.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\source\File.cpp(150,53): warning C4101: 'ex': unreferenced local variable
+  FileExportedFunctions.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+  FileSystem.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+  Folder.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+  GameAsset.cpp
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\headers\File.h(60,34): warning C4251: 'blood_manager::File::_path': class 'boost::filesystem::path' needs to have dll-interface to be used by clients of class 'blood_manager::File'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\libraries\boost_1_81_0\boost\filesystem\path.hpp(85,7): message : see declaration of 'boost::filesystem::path'
+D:\Escritorio\Bloodmask Reps\Bloodmask_Asset_Manager\source\GameAsset.cpp(4): fatal  error C1075: '{': no matching token found
